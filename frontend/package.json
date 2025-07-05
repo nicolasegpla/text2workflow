@@ -12,9 +12,14 @@
         "lint:fix": "eslint . --ext .ts,.tsx --fix",
         "storybook": "storybook dev -p 6006",
         "build-storybook": "storybook build",
-        "generate": "bun generate-component.ts"
+        "generate": "bun generate-component.ts",
+        "test": "vitest",
+        "test:ui": "vitest --ui"
     },
     "dependencies": {
+        "@testing-library/jest-dom": "^6.6.3",
+        "@testing-library/react": "^16.3.0",
+        "jsdom": "^26.1.0",
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
         "react-router-dom": "^7.5.0",

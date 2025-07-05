@@ -1,9 +1,15 @@
+import { RouterProvider } from 'react-router-dom';
+
+import { useRoutesProvider } from '@/presentation/routes/useRoutesProvider';
+
 import './App.scss';
 
 function App() {
+    const { routes } = useRoutesProvider();
+
     return (
         <>
-            <h1>hola mundo</h1>
+            <RouterProvider router={routes} />
         </>
     );
 }
