@@ -1,0 +1,9 @@
+.
+├── README.md
+├── backend
+├── docker-compose.yml
+├── env
+├── estructura.txt
+└── frontend
+
+3 directories, 3 files

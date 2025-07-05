@@ -1,0 +1,17 @@
+# .gitignore
+
+# Python
+env/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# General
+.DS_Store
+.vscode/
+*.log
+
+.env
