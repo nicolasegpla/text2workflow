@@ -20,7 +20,9 @@ jobs:
           bun-version: latest
 
       - name: 📦 Install dependencies
+        working-directory: ./frontend
         run: bun install
 
       - name: 🧪 Run Vitest
+        working-directory: ./frontend
         run: bun vitest run --coverage
