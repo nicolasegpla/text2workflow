@@ -2,9 +2,9 @@ name: Run Vitest
 
 on:
   push:
-    branches: [main, develop]
+    branches: [main, develop, feat/formGenerateworkFlow]
   pull_request:
-    branches: [main, develop]
+    branches: [main, develop, feat/formGenerateworkFlow]
 
 jobs:
   test:
